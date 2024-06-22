@@ -1,0 +1,173 @@
+/*****general reusable  component  *****/
+html {
+	font-size: 62.5%;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Rubik", sans-serif;
+	line-height: 1;
+	font-weight: 400;
+	overflow-x: hidden;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+	color: #333;
+	letter-spacing: -0.5px;
+	font-size: 700;
+}
+
+.subheading {
+	font-size: 1.6rem;
+	font-weight: 500;
+	letter-spacing: 0.75px;
+	color: #cf711f;
+	display: block;
+	margin-bottom: 1.6rem;
+	text-transform: uppercase;
+}
+
+.heading-secondary {
+	font-size: 4.4rem;
+	margin-bottom: 9.6rem;
+	line-height: 1.2;
+}
+
+.heading-primary {
+	line-height: 1.05;
+	font-size: 5.2rem;
+	letter-spacing: -0.5px;
+	font-weight: 700;
+	margin-bottom: 3.2rem;
+}
+
+.hero-description {
+	line-height: 1.6;
+	font-size: 2rem;
+	margin-bottom: 4.8rem;
+	color: #333;
+}
+
+.heading-tertiary {
+	font-size: 3rem;
+	margin-bottom: 3.2rem;
+	line-height: 1.2;
+}
+
+.btn:visited,
+.btn:link,
+.btn {
+	text-decoration: none;
+	display: inline-block;
+	padding: 1.6rem 3.2rem;
+	border-radius: 9px;
+	font-weight: 600;
+	font-size: 2rem;
+	transition: all 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+	background-color: #e67e22;
+	color: #fff;
+	margin-right: 1.6rem;
+}
+
+.btn--full:hover,
+.btn--full:active {
+	background-color: #cf711f;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+	background-color: #fff;
+	color: #555;
+}
+
+.btn--outline:hover,
+.btn--full:active {
+	box-shadow: inset 0 0 0 3px #fff;
+	background-color: #fdf2e9;
+}
+
+.link:link,
+.link:visited {
+	color: #cf711f;
+	display: inline-block;
+	text-decoration: none !important;
+	border-bottom: solid 1px currentColor;
+	padding: 2px;
+	font-size: 1.6rem;
+	transition: all 0.5s;
+}
+
+.btn--form {
+	border: none;
+	cursor: pointer;
+	border-radius: 9px;
+	color: #fdf2e9;
+	background-color: #45260a;
+	align-self: flex-end;
+	padding: 1.2rem;
+}
+
+.btn--form:hover {
+	background-color: white;
+	color: #555;
+}
+
+.link:active,
+.link:hover {
+	border-bottom: solid 1px transparent;
+	color: #e67e22;
+}
+
+*:focus {
+	outline: none;
+	box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+/* ***center classes */
+
+.center-text {
+	text-align: center;
+}
+
+.margin-right-sm {
+	margin-right: 1.6rem !important;
+}
+
+.list {
+	list-style: none;
+	flex-direction: column;
+	gap: 1.6rem;
+}
+
+.list-item {
+	display: flex;
+	align-items: center;
+	gap: 1.6rem;
+	font-weight: 500;
+	font-size: 1.6rem;
+	line-height: 1.2;
+}
+
+.list-icon {
+	width: 3rem;
+	height: 3rem;
+	color: #e67e22;
+}
+
+strong {
+	font-weight: 700;
+}
+
+.margin-buttom-md {
+	margin-bottom: 4.8rem !important;
+}
